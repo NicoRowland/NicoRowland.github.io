@@ -1,0 +1,10 @@
+---
+layout: page
+title: "Projects that I've worked on!"
+permalink: /projects/
+subtitle: Most of this stuff is physics related, but anything could show up!
+---
+
+{% for post in site.poetry reversed %}
+  {% include post-entry.html %}
+{% endfor %}
